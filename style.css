@@ -1,0 +1,139 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 100px !important;
+    color: white;
+    margin-top: 40px;
+    padding: 10px ;
+}
+
+.coverr {
+    background-color: #333;
+    padding: 100px 0;
+}
+
+.middle-container {
+    background-color: #f8f9fa;
+}
+
+.cat-coding{
+    height: 300px !important;
+    padding-top: 55px;
+    margin-bottom: 40px;
+}
+
+.profile-img img {
+    max-width: 150px;
+    border-radius: 50%;
+   margin-top: 30px !important;
+}
+
+.intro h2, .skills h2, .contact-me h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #66bfbf;
+}
+
+.intro p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+.skills {
+    background-color: #fff;
+}
+
+.coding img,
+.football img {
+    max-width: 100%;
+    height: auto;
+}
+
+.football-img{
+    height: 360px !important;
+    padding: 10px 10px 10px 10px;
+}
+
+.coding h3,
+.playing-football h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #66bfbf;
+    text-align: center;
+}
+
+.coding p,
+.playing-football p {
+    text-align: left;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.text-center2{
+margin-top: 100px;
+}
+@media (max-width: 1200px) {
+    h1 {
+        font-size: 80px; /* Adjust the font size as needed */
+    }
+}
+@media (min-width: 768px) {
+    .coding p,
+    .playing-football p {
+        text-align: left;
+    }
+    h1 {
+        font-size: 80px; /* Adjust the font size as needed */
+    }
+}
+
+@media (max-width: 767px) {
+    .coding p,
+    .playing-football p {
+        text-align: center;
+    }
+    h1 {
+        font-size: 80px; /* Adjust the font size as needed */
+    }
+}
+
+.contact-me {
+    background-color: #e9ecef;
+}
+
+.contact-me h2, .contact-me h3 {
+    color: #66bfbf;
+}
+
+.custom-hr {
+    border: 1px solid rgb(245, 245, 245);
+    margin: 50px 0;
+}
+
+.button-container .btn {
+    background-color: #66bfbf;
+    border: none;
+}
+
+#cover {
+    background-image: url('./images/background\ cat.webp'); /* Ensure the path to your image is correct */
+    background-size: cover; /* This ensures the image covers the entire background */
+    background-position: center; /* This centers the background image */
+    background-repeat: no-repeat; /* This prevents the background image from repeating */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Adjust text color for readability over the background image */
+    text-align: center;
+}
+
+.container  h2{
+    padding-bottom: 50px !important;
+}
+
+.title-text h2{
+    color: #66bfbf;
+}
